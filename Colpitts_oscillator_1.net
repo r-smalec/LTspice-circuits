@@ -1,0 +1,14 @@
+* C:\Users\rsmalec\AppData\Local\LTspice\LTspice-circuits\Colpitts_oscillator_1.asc
+L1 N003 N004 10m
+C1 N003 0 100µ
+C2 0 N004 100µ
+R1 N002 N004 1k
+R2 N001 N002 100
+Q1 N002 N003 0 0 2N2222
+V1 N001 0 5
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\rsmalec\AppData\Local\LTspice\lib\cmp\standard.bjt
+.tran 0 200m 0 1u
+.backanno
+.end
