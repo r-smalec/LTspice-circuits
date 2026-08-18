@@ -2,3 +2,7 @@
 *.raw
 *.txt
 *.net
+
+Draft*.asc
+
+lib/
